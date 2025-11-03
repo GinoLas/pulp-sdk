@@ -15,21 +15,21 @@
  */
 
 
-#ifndef __ARCHI_CHIPS_SIRACUSA_PULP_H__
-#define __ARCHI_CHIPS_SIRACUSA_PULP_H__
+#ifndef __ARCHI_CHIPS_ALSAQR_PULP_H__
+#define __ARCHI_CHIPS_ALSAQR_PULP_H__
 
-#include "archi/chips/siracusa/properties.h"
-#include "archi/chips/siracusa/apb_soc_ctrl.h"
+#include "archi/chips/alsaqr/properties.h"
+#include "archi/chips/alsaqr/apb_soc_ctrl.h"
 
 #include "archi/gpio/gpio_v3.h"
 #include "archi/riscv/priv_1_10.h"
 #include "archi/riscv/pcer_v2.h"
 #include "archi/itc/itc_v1.h"
 
-#include "archi/chips/siracusa/memory_map.h"
-#include "archi/chips/siracusa/apb_soc_ctrl/apb_soc_ctrl.h"
-#include "archi/chips/siracusa/cluster_ctrl_unit/cluster_ctrl_unit.h"
-#include "archi/chips/siracusa/cluster_icache_ctrl/cluster_icache_ctrl.h"
+#include "archi/chips/alsaqr/memory_map.h"
+#include "archi/chips/alsaqr/apb_soc_ctrl/apb_soc_ctrl.h"
+#include "archi/chips/alsaqr/cluster_ctrl_unit/cluster_ctrl_unit.h"
+#include "archi/chips/alsaqr/cluster_icache_ctrl/cluster_icache_ctrl.h"
 #include "archi/stdout/stdout_v3.h"
 #include "archi/eu/eu_v3.h"
 #include "archi/dma/mchan_v7.h"
@@ -39,7 +39,7 @@
 #include "archi/udma/i2s/udma_i2s_v2.h"
 #include "archi/udma/spim/udma_spim_v3.h"
 #include "archi/udma/uart/udma_uart_v1.h"
-#include "archi/udma/hyper/udma_hyper_v3_siracusa.h"
+#include "archi/udma/hyper/udma_hyper_v3_alsaqr.h"
 #include "archi/udma/udma_v3.h"
 
 #endif
