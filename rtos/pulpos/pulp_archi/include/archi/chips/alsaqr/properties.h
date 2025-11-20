@@ -201,6 +201,7 @@
 *   Probably a mess, but hey I am trying
 */
 #define ARCHI_SOC_EVENT_NB_TOTAL     150
+#define ARCHI_FC_EVT_SOC_EVT 0
 
 
 #endif
