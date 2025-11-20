@@ -196,4 +196,11 @@
 #define ARCHI_EVT_SOC_FIFO    31
 
 
+/*
+*   Workarounds 
+*   Probably a mess, but hey I am trying
+*/
+#define ARCHI_SOC_EVENT_NB_TOTAL     150
+
+
 #endif
