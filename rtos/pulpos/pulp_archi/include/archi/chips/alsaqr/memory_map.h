@@ -189,4 +189,15 @@
 
 #define ARCHI_PLIC_BASE 0x0C000000
 
+
+/*
+*   Workarounds to make the compilation work 
+*   Probably a mess, but we are experimenting 
+*/
+
+#define ARCHI_FC_ITC_ADDR   ARCHI_PLIC_BASE
+#define ARCHI_FC_TIMER_ADDR 0x0 //Dummy address, will have to adapt to AlSaqr timer in order to make timers work 
+#define ARCHI_SOC_EU_ADDR ARCHI_PLIC_BASE
+
+
 #endif
